@@ -30,7 +30,6 @@ class App extends Component {
         console.log(err);
       });
   }
-
   
   showHtml(x){
       this.setState({html: x}, this.getSampleText);

@@ -31,6 +31,7 @@ class App extends Component {
       });
   }
 
+  
   showHtml(x){
       this.setState({html: x}, this.getSampleText);
   }
